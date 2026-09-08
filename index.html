@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="محل ملابس رجالي يتوفر لدينا البنطرون الكابوي والكتان واللينن والقماش والسبانكدس والقمصان الرسمية والكجول والتيشيرتات الحلقة والياخة والاحزمة وغيرها للاطلاع على باقي التفاصيل يُرجى زيارة موقع المحل الكرادة داخل شارع العطار العراق مول طابق السرداب محل أي أند أم بولو"
+/>
+<title>محل أزياء رجالية</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div href="#" id="sidebar">
+    <a href="#" onclick="dis();
+    gid('home').scrollIntoView();
+    sidebar.classList.toggle('active');
+    return false;">الرئيسية</a>
+    <a href="#" onclick="dis();
+    gid('shirts').scrollIntoView();
+    sidebar.classList.toggle('active');
+    return false;">قمصان</a>
+    <a href="#" onclick="dis();
+    gid('TT').scrollIntoView();
+    sidebar.classList.toggle('active');
+    return false;">تيشيرتات</a>
+    <a href="#" onclick="dis();
+    gid('trousers').scrollIntoView();
+    sidebar.classList.toggle('active');
+    return false;">بناطير</a>
+    <a href="#" onclick="dis();
+    gid('pij').scrollIntoView();
+    sidebar.classList.toggle('active');
+    return false;">بجايم</a>
+    <a href="#" onclick="dis();
+    gid('about').scrollIntoView();
+    sidebar.classList.toggle('active');
+    return false;">من نحن</a>
+    <a href="#" onclick="dis();
+    gid('contact').scrollIntoView();
+    sidebar.classList.toggle('active');
+    return false;">التواصل</a>
+    <a href="#"
+    onclick="showCart();
+    sidebar.classList.toggle('active');">قائمة الطلبات</a>
+    <br>
+</div>
+<nav id="nav-bar">
+    <a id="menu-btn" href="#">
+        <img class="nav-link" src="icons/dehaze_20.svg" alt="قائمة"></a>
+    <a href="#" onclick="dis(); gid('home').scrollIntoView(); return false;">
+        <img class="nav-link" src="icons/home_20.svg" alt="الرئيسية"></a>
+    <a href="#" onclick="dis(); gid('about').scrollIntoView(); return false;">
+        <img class="nav-link" src="icons/info_20.svg" alt="من نحن"></a>
+    <a href="#" onclick="dis(); gid('contact').scrollIntoView(); return false;">
+        <img class="nav-link" src="icons/contacts_20.svg" alt="التواصل"></a>
+        <input onsearch="searchPage()" id="search" class="nav-link" type="search" placeholder="...بحث">
+        <div class="cart-container" onclick="showCart()">
+    <img class="nav-link" src="icons/cart.svg">
+    <span id="cart-count">0</span>
+</div>
+</nav>
+<section id="hero">
+    <svg id="logo"
+    xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 330 330">
+  <g fill="#aaaaaa">
+    <text x="60" y="205"
+          font-family="Times New Roman, serif"
+          font-size="120"
+          font-style="italic"
+          font-weight="bold">
+      A
+    </text>
+    <text x="155" y="205"
+          font-family="Arial Black, Arial"
+          font-size="120"
+          font-style="italic"
+          font-weight="900">
+      M
+    </text>
+  </g>
+    <g font-family="Georgia, Times New Roman, serif"
+     font-size="60"
+     font-weight="900">
+    <text x="120" y="175"
+          fill="#1a1aff"
+          stroke="#0000a3"
+          stroke-width="8"
+          paint-order="stroke">
+      &
+    </text>
+    <text x="120" y="175"
+          fill="#aaaaaa">
+      &
+    </text>
+  </g>
+</svg>
+    <h1 style="text-align: center;">
+        <i>A&M POLO
+        <br>للأزياء الرجالية</i>
+    </h1>
+</section>
+<div id="container">
+    <div id="main-page">
+<section id="home">
+    <h2>الرئيسية</h2>
+    <p>مرحباً بكم في أي اند أم پولو للأزياء الرجالية
+    </p>
+        <a class="cta" href="tel:+9647704510148">اتصل بنا</a>
+        <a class="cta" style="margin-top:20px;" onclick="refresh(); location.reload();">أفرغ قائمة الطلبات</a>
+        <section>
+        <div class="product"
+        id="01"></div>
+        </section>
+        <section id="shirts"
+        style="margin: 50px 0px;">
+            <h2>قمصان</h2>
+            <div class="product"
+            id="02">
+            </div>
+            <div class="product"
+            id="03"></div>
+            <div class="product"
+            id="04"></div>
+            <div class="product"
+            id="05"></div>
+            <div class="product"
+            id="06"></div>
+            <div class="product"
+            id="07"></div>
+       </section>
+       <section id="TT">
+            <h2>تيشيرتات</h2>
+            <div class="product"
+            id="08"></div>
+            <div class="product"
+            id="09"></div>
+            <div class="product"
+            id="10"></div>
+            <div class="product"
+            id="11"></div>
+            <div class="product"
+            id="12"></div>
+            <div class="product"
+            id="13"></div>
+        </section>
+        <section id="trousers">
+            <h2>بناطير</h2>
+            <div class="product"
+            id="14"></div>
+            <div class="product"
+            id="15"></div>              
+            <div class="product"
+            id="16"></div>
+            <div class="product"
+            id="17"></div>
+            <div class="product"
+            id="18"></div>
+            <div class="product"
+            id="19"></div>
+       </section>
+       <section id="pij">
+           <h2>بجايم</h2>
+            <div class="product"
+            id="20"></div>
+            <div class="product"
+            id="21"></div>
+       </section>
+</section>
+<section id="about">
+    <h2>من نحن</h2>
+    <p>محل ملابس رجالي يتوفر لدينا مجموعة من الملابس الرجالية من ضمنها البنطرون الكابوي والكتان واللينن والقماش والسبانكدس والقمصان الرسمية والكجول والتيشيرتات الحلقة والياخة والاحزمة وايضاً يوجد امور اخرى للاطلاع على باقي التفاصيل يُرجى زيارة موقع المحل الكرادة داخل شارع العطار العراق مول طابق السرداب محل 
+<br>
+A&M POLO
+</p>
+</section>
+<section id="contact">
+    <h2>التواصل</h2>
+    <form id="contact-form">
+        <input class="contact-form-input"
+        type="tel" placeholder="رقم الهاتف">
+        <a class="cta"
+        id="submit"
+        style="margin-right:10px;"
+        onclick="sendContact()">ارسال</a>
+    </form>
+</section>
+</div>
+<div id="cart-page"></div>
+<div id="footer-line">
+</div>    
+<div id="contactlist">
+<a href="https://wa.me/9647704510148" target="_blank">
+    <img class="contact-btn"
+    src="icons/whatsapp-svgrepo-com.svg"
+    loading="lazy"
+    alt="واتساب">
+    </a>
+<a href="tel:+9647704510148"
+target="_blank">
+    <img class="contact-btn"
+    src="icons/phone-5981.svg"
+    loading="lazy"
+    alt="رقم الهاتف">
+    </a>
+    </div>
+    </div>    
+<footer>
+    &copy; 2026 جميع الحقوق محفوظة
+</footer>
+<script src="script.js">
+</script>
+</body>
+</html>
